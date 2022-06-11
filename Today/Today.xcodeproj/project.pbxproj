@@ -13,6 +13,7 @@
 		FD5FF2202854A715007BFB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5FF21E2854A715007BFB97 /* Main.storyboard */; };
 		FD5FF2222854A716007BFB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5FF2212854A716007BFB97 /* Assets.xcassets */; };
 		FD5FF2252854A716007BFB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5FF2232854A716007BFB97 /* LaunchScreen.storyboard */; };
+		FD5FF22F2854A92C007BFB97 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FF22E2854A92C007BFB97 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD5FF2212854A716007BFB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD5FF2242854A716007BFB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD5FF2262854A716007BFB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5FF22E2854A92C007BFB97 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FD5FF2172854A715007BFB97 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				FD5FF22D2854A8C0007BFB97 /* Models */,
 				FD5FF2182854A715007BFB97 /* AppDelegate.swift */,
 				FD5FF21A2854A715007BFB97 /* SceneDelegate.swift */,
 				FD5FF21C2854A715007BFB97 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				FD5FF2262854A716007BFB97 /* Info.plist */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		FD5FF22D2854A8C0007BFB97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FF22E2854A92C007BFB97 /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				FD5FF21D2854A715007BFB97 /* ViewController.swift in Sources */,
 				FD5FF2192854A715007BFB97 /* AppDelegate.swift in Sources */,
 				FD5FF21B2854A715007BFB97 /* SceneDelegate.swift in Sources */,
+				FD5FF22F2854A92C007BFB97 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
